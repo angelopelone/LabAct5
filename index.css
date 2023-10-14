@@ -1,0 +1,85 @@
+body {
+    background-color: pink;
+    -webkit-text-fill-color: rgb(13, 13, 13);
+    text-align: center;
+
+    text-align: center;
+    background-image: url("hi.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    position: relative;
+}
+
+.btn {
+    float: left;
+    position: absolute;
+    top: 38px;
+    /* Adjust the distance from the top */
+    left: 180px;
+    /* Adjust the distance from the left */
+    border-radius: 10px;
+    border-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    background-color: rgb(215, 244, 127);
+    font-weight: bold;
+}
+
+.edit {
+    float: left;
+    position: absolute;
+    top: 38px;
+    /* Adjust the distance from the top */
+    left: 130px;
+    /* Adjust the distance from the left */
+    border-radius: 10px;
+    border-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    background-color: rgb(215, 244, 127);
+    font-weight: bold;
+
+}
+
+.line {
+    width: 500px !important;
+}
+
+.ph {
+    text-align: center;
+    padding-bottom: 0px;
+    margin: 0 auto;
+
+    /* Vertically centers the text within the textarea */
+
+
+}
+
+.ph::placeholder {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* Additional styles to make it visually centered */
+    color: gray;
+    /* Placeholder color */
+
+}
+
+textarea {
+    width: 750px;
+    height: 40px;
+    /* or any other appropriate value */
+}
+
+#input {
+    text-align: center;
+}
+
+.delete {
+    background-color: chartreuse;
+}

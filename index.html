@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Basics</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+
+<body>
+    <h1> </h1>
+    <div class="container">
+        <div class="left">
+            <form id="form">
+                <label for=""> </label>
+                <br><br>
+
+                <textarea class="ph" name="" id="input" placeholder=" Enter Data " cols="30" rows="5">
+                </textarea>
+                <br><br>
+                <div id="msg"></div>
+                <button class="btn" type="submit"> Add </button>
+            </form>
+        </div>
+        <div class="edit-btn">
+            <button class="edit" type="button">Edit </button>
+        </div>
+        <button class="delete" onClick="deleteAllPosts()">Clear All Data</button>
+
+        <div class="right">
+            <h3> Data </h3>
+            <hr class="line">
+            <div id="posts"></div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+<script src="pakage.js"></script>
+
+</html>
